@@ -1,0 +1,39 @@
+
+::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #c4bcd6;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1f3144;
+    scroll-behavior: smooth;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #537567;
+  }
+
+  /* width */
+
+#sideNavSection{
+    direction: rtl; 
+    scroll-behavior: smooth;
+    
+}
+
+#sideNavTop::-webkit-scrollbar {
+   display: none;
+  }
+ 
+#flippedSideNav{
+    direction: ltr;
+}
