@@ -1,0 +1,472 @@
+.container-div-body-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    gap: 3rem;
+    overflow-x: hidden;
+}
+
+
+.body-heading{
+    font-size: 40px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.body-heading p{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 5rem;
+}
+
+.buttons-container button{
+    padding: 20px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.buttons-container button i{
+    justify-content: center;
+    align-items: center;
+}
+
+.hd-pdf{
+    background-color: rgb(61, 61, 245);
+}
+
+.download-pdf{
+    background-color: rgb(250, 48, 48);
+}
+
+.pdf-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    width: 130%;
+    
+}
+
+.pdf-holder iframe{
+    border: none;
+    height: 700px;
+    border-radius: 1.5rem;
+    border: 3px solid rgb(255, 91, 91);
+}
+
+.description{
+    display: block;
+    text-align: left;
+    width: 95%;
+    margin-bottom: 5rem;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1919px){
+    .body-heading h1{
+        display: block;
+        font-size: 35px;
+        max-width: 100%;
+        text-align: left;
+    }
+
+
+    .buttons-container{
+        gap: 15rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 10px;
+        border-radius: 0.5rem;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 20px;
+    }
+
+    .pdf-holder{
+        max-width: 95%;
+    }
+
+    .pdf-holder iframe{
+        height: 700px;
+        width: 80%;
+        border: 3px solid rgb(255, 91, 91);
+    }
+    
+    .description{
+        width: 89%;
+        font-size: 24px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1680px){
+    .body-heading h1{
+        font-size: 35px;
+        text-align: left;
+    }
+
+
+    .buttons-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 10px;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .buttons-container button i{
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .pdf-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .pdf-holder iframe{
+        border: none;
+        height: 700px;
+        border-radius: 1.5rem;
+        border: 3px solid rgb(255, 91, 91);
+    }
+    
+    .description{
+        font-size: 24px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1599px){
+    
+    .body-heading h1{
+
+        font-size: 35px;
+    }
+
+
+    .buttons-container{
+        gap: 9rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 20px;
+    }
+
+
+    .pdf-holder iframe{
+        height: 700px;
+        border-radius: 1.5rem;
+    }
+    
+    .description{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1279px){
+
+    
+
+    .body-heading h1{
+        font-size: 32px;
+    }
+
+
+    .buttons-container{
+        gap: 10rem;
+    }
+    
+    
+    .buttons-container button{
+        border-radius: 0.5rem;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 20px;
+    }
+
+    
+    .description{
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    
+
+    .body-heading h1{
+        font-size: 35px;
+    }
+
+
+    .buttons-container{
+        gap: 9rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 20px;
+    }
+
+    .description{
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (max-width: 915px){ 
+
+    .body-heading h1{
+        font-size: 35px;
+    }
+
+
+    .buttons-container{
+        gap: 8rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 8px;
+        font-size: 22px;
+
+    }
+    
+    .buttons-container button i{
+        font-size: 20px;
+    }
+
+
+    
+    .description{
+        font-size: 23px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .body-heading h1{
+        font-size: 32px;
+
+    }
+
+
+    .buttons-container{
+        gap: 5rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 8px;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+
+
+
+
+    
+    .description{
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (max-width: 639px){
+    
+
+    .body-heading h1{
+        font-size: 35px;
+    }
+
+
+    .buttons-container{
+        font-size: 20px;
+        gap: 8rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 18px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .body-heading h1{
+        font-size: 30px;
+    }
+
+
+    .buttons-container{
+        gap: 4rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 8px;
+        font-size: 20px;
+    }
+    
+    .buttons-container button i{
+        font-size: 15px;
+    }
+
+    .description{
+        font-size: 22px;
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .body-heading h1{
+        font-size: 28px;
+    }
+
+
+    .buttons-container{
+        gap: 4rem;
+    }
+    
+    
+    .buttons-container button{
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .buttons-container button i{
+        font-size: 15px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .body-heading h1{
+        font-size: 28px;
+    }
+
+
+    .buttons-container{
+        gap: 2rem;
+    }
+    
+    
+    .buttons-container button{
+        font-size: 16px;
+    }
+    
+    .buttons-container button i{
+        font-size: 14px;
+    }
+
+    .description{
+        font-size: 18px;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

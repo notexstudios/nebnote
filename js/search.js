@@ -1,23 +1,28 @@
 const searchableValues = [
     {
         query: 'Class 11 Maths Sets',
-        link: '/pages/class11/mathematics/sets/',
+        link: '/pages/notes/',
         description: 'Sets whole exercise Grade 11'
     },
     {
         query: 'Class 11 Maths Integers',
-        link: '/pages/class11/mathematics/realnumbers/',
+        link: '/pages/notes/',
         description: 'Real Numbers whole exercise Grade 11'
     },
     {
         query: 'Class 11 Maths Function',
-        link: '/pages/class11/mathematics/functions/',
+        link: '/pages/notes/',
         description: 'Function whole exercise Grade 11'
     }
 ]
 
+if(location.pathname==='/'){
+    search('searchInputBoxHomeMain', 'searchResultBoxHomeMain')
+}
 search('searchInputBoxTop', 'searchResultBoxTop')
 search('searchInputBoxSide', 'searchResultBoxSide')
+
+
 // top search bar
 
 
@@ -29,8 +34,11 @@ function search(inputBoxType, resultBoxType){
     }
     document.getElementById(`${inputBoxType}`).onblur = function (e) {
         e.preventDefault()
-        document.getElementById(`${inputBoxType}`).value = ''
+        setTimeout( ()=>{
+            document.getElementById(`${inputBoxType}`).value = ''
         searchOne(inputBoxType, resultBoxType)
+        },750)
+        
     }
 }
 
@@ -52,11 +60,19 @@ function searchOne(inputBoxType, resultBoxType) {
 // function 3
 function display(result, resultBoxType ) {
 
-    const mainDiv = result.map( (element) => {
-        return "<a>"+ "<h3>" + element.query + "</h3>" + "<p>" + element.description + "</p>" +"</a>"
+
+    const mainDivData = result.map( (element) => {
+        return "<a>"+ (("<h3>" + element.query + "</h3>") + ("<p>" + element.description + "</p>")) +"</a>"
     } )
 
+    let mainDiv = ''
+
+    for (let i = 0; i < mainDivData.length; i++) {
+        mainDiv = mainDivData[i] + mainDiv
+    }
+
     document.getElementById(`${resultBoxType}`).innerHTML = '<div>' + mainDiv + '<div>'
+    
 
     let anchors = document.querySelectorAll(`#${resultBoxType} div a`)
     let title = document.querySelectorAll(`#${resultBoxType} div h3`)
