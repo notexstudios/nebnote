@@ -1,0 +1,112 @@
+
+  
+main .comp{
+  padding: 24px;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top:  30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+main table {
+  letter-spacing: 1px;
+    border-collapse: separate;
+    width: 100%;
+  }
+main .contentm{
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 90%;
+    float: left;
+
+    justify-content: center;
+  }
+  main .contenta{
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+  main img.asd{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+     
+  }
+
+  main p{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  main p.asd{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  main th, td {
+    text-align: center;
+    width: 120px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 8px;
+    border: 2px solid cadetblue;
+  }
+  
+  main tr{
+    border: 2px solid cadetblue;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main .img{
+  width: 100%;
+}
+main a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  main a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 600px) {
+    main h2 {
+        width: 100%;
+        margin-bottom: 20px;
+        
+      }
+      main .contentm{
+        justify-content: center;
+      width: 100%;
+     float: right;
+     display: grid;
+    }
+    main .contenta{
+      justify-content: center;
+    width: 100%;
+   float: right;
+ 
+  }
+
+  
+    main table {
+        width: 100%;
+      }
+      main .comp{
+        padding: 12px;
+      }
+    }

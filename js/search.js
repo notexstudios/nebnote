@@ -1,18 +1,38 @@
 const searchableValues = [
     {
-        query: 'Class 11 Maths Sets',
-        link: '/pages/notes/',
-        description: 'Sets whole exercise Grade 11'
+        query: 'Class 12 Maths Permutation Combination',
+        link: '/pages/notes/#permutationCombination',
+        description: 'Class 12 Maths Permutation Combination'
     },
     {
-        query: 'Class 11 Maths Integers',
-        link: '/pages/notes/',
-        description: 'Real Numbers whole exercise Grade 11'
+        query: 'Class 12 Maths Binomial Theorem',
+        link: '/pages/notes/#binomialTheorem',
+        description: 'Class 12 Maths Binomial Theorem'
     },
     {
-        query: 'Class 11 Maths Function',
-        link: '/pages/notes/',
-        description: 'Function whole exercise Grade 11'
+        query: 'Class 12 Maths Complex Number',
+        link: '/pages/notes/#complexNumber',
+        description: 'Class 12 Maths Complex Number'
+    },
+    {
+        query: 'Class 12 Maths Sequence & Series',
+        link: '/pages/notes/#sequenceSeries',
+        description: 'Class 12 Maths Sequence & Series'
+    },
+    {
+        query: 'Class 12 Maths Matrix',
+        link: '/pages/notes/#matrixLinearEquations',
+        description: 'Class 12 Maths matrix'
+    },
+    {
+        query: 'Class 12 Maths Properties of Triangle',
+        link: '/pages/notes/#propertiesTriangle',
+        description: 'Class 12 Maths Properties of Triangle'
+    },
+    {
+        query: 'Class 12 Maths Solution of Triangle',
+        link: '/pages/notes/#solutionTriangle',
+        description: 'Class 12 Maths Solution of Triangle'
     }
 ]
 
